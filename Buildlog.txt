@@ -1,0 +1,213 @@
+[2026-09-24 11:28 ACST] Created project folder CentralAI
+Location: C:\Projects\CentralAI
+Undo: Delete the CentralAI folder
+
+[2026-09-24 11:32 ACST] Created Python virtual environment using full Python path
+Location: C:\Projects\CentralAI\venv
+Undo: Delete the venv folder
+
+[2026-09-24 11:33 ACST] Activated Python virtual environment
+Location: C:\Projects\CentralAI\venv\Scripts\activate
+Undo: Run 'deactivate' or close the terminal
+
+[2026-09-24 11:34 ACST] Created main Python file
+Location: C:\Projects\CentralAI\main.py
+Undo: Delete main.py
+
+[2026-09-24 11:35 ACST] Created core module folder
+Location: C:\Projects\CentralAI\core
+Undo: Delete the core folder
+
+[2026-09-24 11:36 ACST] Created core module initializer
+Location: C:\Projects\CentralAI\core\__init__.py
+Undo: Delete __init__.py
+
+[2026-09-24 11:36 ACST] Created engine file for core AI logic
+Location: C:\Projects\CentralAI\core\engine.py
+Undo: Delete engine.py
+
+[2026-09-24 11:36 ACST] Created configuration file for central AI
+Location: C:\Projects\CentralAI\core\config.py
+Undo: Delete config.py
+
+[2026-09-24 11:37 ACST] Created utils file for helper functions
+Location: C:\Projects\CentralAI\core\utils.py
+Undo: Delete utils.py
+
+[2026-09-24 11:39 ACST] Created remaining core structure files
+Location: C:\Projects\CentralAI\core\router.py, events.py, state.py, memory.py
+Undo: Delete any of the listed files
+
+[2026-09-24 11:40 ACST] Created remaining top-level project files
+Location: C:\Projects\CentralAI\requirements.txt, README.md, settings.json, .env.example
+Undo: Delete any of the listed files
+
+[2026-09-24 11:43 ACST] Added minimal starter code to main.py
+Location: C:\Projects\CentralAI\main.py
+Undo: Remove the added code or delete main.py
+
+[2026-09-24 11:45 ACST] Added minimal engine structure to engine.py
+Location: C:\Projects\CentralAI\core\engine.py
+Undo: Remove the added code or delete engine.py
+
+[2026-09-24 11:46 ACST] Connected main.py to CentralAIEngine
+Location: C:\Projects\CentralAI\main.py
+Undo: Restore previous main.py or delete main.py
+
+[2026-09-24 11:48 ACST] Created controller.py and added minimal controller structure
+Location: C:\Projects\CentralAI\core\controller.py
+Undo: Delete controller.py or remove its contents
+
+[2026-09-24 11:49 ACST] Connected controller to main.py
+Location: C:\Projects\CentralAI\main.py
+Undo: Restore previous main.py or delete main.py
+
+[2026-09-24 12:58 ACST] Added minimal structures to router, events, state, and memory modules
+Location: C:\Projects\CentralAI\core\router.py, events.py, state.py, memory.py
+Undo: Remove added code or delete any of the listed files
+
+[2026-09-24 13:00 ACST] Integrated router, events, state, and memory into controller
+Location: C:\Projects\CentralAI\core\controller.py
+Undo: Restore previous controller.py or delete controller.py
+
+[2026-09-24 13:02 ACST] Added minimal configuration structure to config.py
+Location: C:\Projects\CentralAI\core\config.py
+Undo: Restore previous config.py or delete config.py
+
+[2026-09-24 13:03 ACST] Integrated configuration module into controller
+Location: C:\Projects\CentralAI\core\controller.py
+Undo: Restore previous controller.py or delete controller.py
+
+[2026-09-24 13:04 ACST] Added minimal utility functions to utils.py
+Location: C:\Projects\CentralAI\core\utils.py
+Undo: Restore previous utils.py or delete utils.py
+
+[2026-09-24 13:05 ACST] Integrated utilities into controller
+Location: C:\Projects\CentralAI\core\controller.py
+Undo: Restore previous controller.py or delete controller.py
+
+[2026-09-24 13:06 ACST] Added minimal router interaction to controller
+Location: C:\Projects\CentralAI\core\controller.py
+Undo: Restore previous controller.py or delete controller.py
+
+[2026-09-24 13:06 ACST] Added minimal event interaction to controller
+Location: C:\Projects\CentralAI\core\controller.py
+Undo: Restore previous controller.py or delete controller.py
+
+[2026-09-24 13:07 ACST] Added minimal state interaction to controller
+Location: C:\Projects\CentralAI\core\controller.py
+Undo: Restore previous controller.py or delete controller.py
+
+[2026-09-24 13:08 ACST] Added minimal memory interaction to controller
+Location: C:\Projects\CentralAI\core\controller.py
+Undo: Restore previous controller.py or delete controller.py
+
+> Workflow changed from strict ultra controlled to more efficient info handling
+
+[2026-09-24 13:08 ACST] Finalised controller with full core interactions
+Location: C:\Projects\CentralAI\core\controller.py
+Undo: Restore previous controller.py or delete controller.py
+
+[2026-09-24 13:09 ACST] Expanded router with minimal functional message classification
+Location: C:\Projects\CentralAI\core\router.py
+Undo: Restore previous router.py or delete router.py
+
+[2026-09-24 13:10 ACST] Expanded EventManager with functional event registration and emission
+Location: C:\Projects\CentralAI\core\events.py
+Undo: Restore previous events.py or delete events.py
+
+[2026-09-24 13:10 ACST] Expanded StateManager with functional key/value storage and retrieval
+Location: C:\Projects\CentralAI\core\state.py
+Undo: Restore previous state.py or delete state.py
+
+[2026-09-24 13:11 ACST] Expanded MemoryManager with functional storage and recall
+Location: C:\Projects\CentralAI\core\memory.py
+Undo: Restore previous memory.py or delete memory.py
+
+[2026-09-24 13:11 ACST] Expanded Config manager with functional set/get operations
+Location: C:\Projects\CentralAI\core\config.py
+Undo: Restore previous config.py or delete config.py
+
+[2026-09-24 13:12 ACST] Added functional debug/info utilities
+Location: C:\Projects\CentralAI\core\utils.py
+Undo: Restore previous utils.py or delete utils.py
+
+[2026-09-24 13:13 ACST] Expanded Engine with minimal functional run loop
+Location: C:\Projects\CentralAI\core\engine.py
+Undo: Restore previous engine.py or delete engine.py
+
+[2026-09-24 13:13 ACST] Added main entry point to wire controller and engine together
+Location: C:\Projects\CentralAI\main.py
+Undo: Delete main.py
+
+[2026-09-24 13:15 ACST] Added basic event listeners and registered them in controller
+Location: C:\Projects\CentralAI\core\events_listeners.py and controller.py
+Undo: Delete events_listeners.py and remove listener registrations from controller.py
+
+[2026-09-24 13:20 ACST] Added message processors and integrated pipeline into controller
+Location: C:\Projects\CentralAI\core\message_processors.py and controller.py
+Undo: Delete message_processors.py and remove processor_pipeline integration
+
+[2026-09-24 13:23 ACST] Added response generator and integrated into controller
+Location: C:\Projects\CentralAI\core\response_generator.py and controller.py
+Undo: Delete response_generator.py and remove generate_response integration
+
+[2026-09-24 13:25 ACST] Added minimal personality layer and integrated into response generator
+Location: C:\Projects\CentralAI\core\personality.py and response_generator.py
+Undo: Delete personality.py and remove personality integration
+
+[2026-09-24 13:35 ACST] Added unified action executor and integrated into controller
+Location: C:\Projects\CentralAI\core\action_executor.py and controller.py
+Undo: Delete action_executor.py and remove execute_action integration
+
+[2026-09-24 13:39 ACST] Added message history system and integrated logging into controller
+Location: C:\Projects\CentralAI\core\history.py, controller.py, commands.py
+Undo: Delete history.py and remove history integration
+
+[2026-09-24 16:44 ACST] Upgraded engine to multi-message loop
+Location: C:\Projects\CentralAI\core\engine.py
+Undo: Restore previous single-message run() method
+
+[2026-09-24 16:45 ACST] Added simple plugin system with auto-loading and sample plugin
+Location: C:\Projects\CentralAI\core\plugin_loader.py and plugins/
+Undo: Delete plugin_loader.py, plugins folder, and remove load_plugins call
+
+[2026-09-24 16:52 ACST] Added plugin hot-reload system and reload_plugins command
+Location: C:\Projects\CentralAI\core\plugin_loader.py and commands.py
+Undo: Remove reload_plugins function and command
+
+[2026-09-24 16:56 ACST] Added plugin sandboxing layer using PluginAPI
+Location: C:\Projects\CentralAI\core\plugin_api.py and plugin_loader.py
+Undo: Remove PluginAPI and revert plugin_loader to direct controller access
+
+[2026-09-26 12:12 ACST] Updated plugin_loader.py with metadata and dependency checks
+Location: C:\Projects\CentralAI\core\plugin_loader.py
+Undo: Restore previous plugin_loader.py without metadata/dependency logic
+
+[2026-09-26 12:13 ACST] Replaced plugin_loader.py with full updated version (metadata + dependencies + priority)
+Location: C:\Projects\CentralAI\core\plugin_loader.py
+Undo: Restore previous plugin_loader.py
+
+[2026-09-26 12:14 ACST] Step 55: Added plugin compatibility flag support
+Location: C:\Projects\CentralAI\core\plugin_loader.py
+Undo: Remove compatibility-checking function and calls
+
+[2026-09-26 12:16 ACST] Step 56: Added plugin category support
+Location: C:\Projects\CentralAI\core\plugin_loader.py
+Undo: Remove category validation and VALID_CATEGORIES
+
+[2026-09-26 12:17 ACST] Step 57: Added plugin settings support
+Location: C:\Projects\CentralAI\core\plugin_loader.py
+Undo: Remove settings validation and settings extraction
+
+[2026-09-26 12:18 ACST] Step 58: Added plugin permissions support
+Location: C:\Projects\CentralAI\core\plugin_loader.py
+Undo: Remove permission validation and VALID_PERMISSIONS
+
+[2026-09-26 12:19 ACST] Step 59: Added plugin event hook support (on_load)
+Location: C:\Projects\CentralAI\core\plugin_loader.py
+Undo: Remove event hook system and call_event_hook()
+
+[2026-09-26 12:20 ACST] Step 60: Added plugin unload hook support (on_unload)
+Location: C:\Projects\CentralAI\core\plugin_loader.py
+Undo: Remove unload hook system and on_unload calls

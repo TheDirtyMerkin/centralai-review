@@ -1,0 +1,36 @@
+from .utils import debug
+from .error_handler import safe_execute
+
+
+class EventManager:
+    """
+    Simple event bus.
+    Plugins and core systems can subscribe to events.
+    """
+
+    def __init__(self):
+        self._handlers = {}
+
+    # ---------------------------------------------------------
+    # Register handler
+    # ---------------------------------------------------------
+    def on(self, event_name, handler):
+        debug(f"[EVENTS] Register handler for {event_name}")
+        if event_name not in self._handlers:
+            self._handlers[event_name] = []
+        self._handlers[event_name].append(handler)
+
+    # ---------------------------------------------------------
+    # Emit event
+    # ---------------------------------------------------------
+    def emit(self, event_name, *args, **kwargs):
+        debug(f"[EVENTS] Emit: {event_name}")
+
+        handlers = self._handlers.get(event_name, [])
+        results = []
+
+        for handler in handlers:
+            result = safe_execute(handler, *args, **kwargs)
+            results.append(result)
+
+        return results

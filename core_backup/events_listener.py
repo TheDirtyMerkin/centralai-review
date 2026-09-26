@@ -1,0 +1,38 @@
+from .utils import debug
+from .error_handler import safe_execute
+
+
+class EventListener:
+    """
+    Legacy event listener system.
+    Modern plugins use EventManager directly,
+    but older modules may still rely on this wrapper.
+    """
+
+    def __init__(self, controller):
+        self.controller = controller
+        self._listeners = {}
+
+    # ---------------------------------------------------------
+    # Register listener
+    # ---------------------------------------------------------
+    def on(self, event_name, handler):
+        debug(f"[EVENT_LISTENER] Register listener for {event_name}")
+        if event_name not in self._listeners:
+            self._listeners[event_name] = []
+        self._listeners[event_name].append(handler)
+
+    # ---------------------------------------------------------
+    # Emit event
+    # ---------------------------------------------------------
+    def emit(self, event_name, *args, **kwargs):
+        debug(f"[EVENT_LISTENER] Emit: {event_name}")
+
+        handlers = self._listeners.get(event_name, [])
+        results = []
+
+        for handler in handlers:
+            result = safe_execute(handler, *args, **kwargs)
+            results.append(result)
+
+        return results

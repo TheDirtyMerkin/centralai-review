@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "debug": true,
+  "logging": {
+    "level": "DEBUG",
+    "file": null
+  },
+  "engine": {
+    "max_concurrent_requests": 4,
+    "default_timeout_seconds": 30
+  },
+  "history": {
+    "enabled": true,
+    "max_items": 1000
+  },
+  "memory": {
+    "enabled": true,
+    "max_items": 100
+  },
+  "plugins": {
+    "enabled": true,
+    "paths": ["plugins"],
+    "auto_reload": false
+  },
+  "personality": {
+    "default_prefix": "",
+    "default_suffix": ""
+  },
+  "security": {
+    "sandbox_handlers": true,
+    "allow_external_calls": false
+  }
+}

@@ -1,0 +1,38 @@
+from .utils import debug
+
+
+class StateManager:
+    """
+    Simple key/value state store.
+    Plugins and core systems can read/write state.
+    """
+
+    def __init__(self):
+        self._state = {}
+
+    # ---------------------------------------------------------
+    # Set
+    # ---------------------------------------------------------
+    def set(self, key, value):
+        debug(f"[STATE] Set {key} -> {value}")
+        self._state[key] = value
+        return value
+
+    # ---------------------------------------------------------
+    # Get
+    # ---------------------------------------------------------
+    def get(self, key, default=None):
+        return self._state.get(key, default)
+
+    # ---------------------------------------------------------
+    # All
+    # ---------------------------------------------------------
+    def all(self):
+        return dict(self._state)
+
+    # ---------------------------------------------------------
+    # Clear
+    # ---------------------------------------------------------
+    def clear(self):
+        debug("[STATE] Cleared")
+        self._state.clear()
